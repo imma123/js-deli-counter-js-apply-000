@@ -16,7 +16,7 @@ function currentLine (katzline) {
     var i
     for (i = 0; i < katzline.length; i++){
        message += (i+1) + ". " + katzline[i]
-       if (i < (ketzline.length - 1)){ // add comma if there are more names in the array
+       if (i < (katzline.length - 1)){ // add comma if there are more names in the array
          message += ", "
 
        }
